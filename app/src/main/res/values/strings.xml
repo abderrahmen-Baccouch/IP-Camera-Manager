@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CameraManager</string>
+    <string name="dont_have_account">
+    Don\'t you have an account?
+</string>
+    <string-array name="resolution_array">
+        <item>1920x1080</item>
+        <item>1280x720</item>
+        <item>640x480</item>
+    </string-array>
+
+</resources>

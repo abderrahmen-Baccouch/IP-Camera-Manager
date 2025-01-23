@@ -1,0 +1,26 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient Background -->
+    <gradient
+        android:angle="45"
+        android:startColor="#FF7E79"
+        android:endColor="#FFC4A3"
+        android:type="linear" />
+
+    <!-- Rounded Corners -->
+    <corners android:radius="12dp" />
+
+    <!-- Stroke for Outline -->
+    <stroke
+        android:width="2dp"
+        android:color="#FFEBEA" />
+
+    <!-- Padding Inside Shape -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+
+    <!-- Optional Shadow (Using solid for pseudo-shadow effect) -->
+    <solid android:color="#80FFFFFF" />
+</shape>

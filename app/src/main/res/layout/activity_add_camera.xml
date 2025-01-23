@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+
+
+    <!-- Main content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="-20dp"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Creative Title -->
+        <TextView
+            android:id="@+id/creativeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="65dp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="left"
+            android:text="ADD &amp; Configure"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            android:layout_marginTop="0dp"
+            android:textStyle="normal" />
+
+        <!-- Layout for inputs -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-40dp"
+            android:elevation="8dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/ipEditText"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_txt_username"
+                android:drawableStart="@drawable/ic_camera_ip_res"
+                android:drawablePadding="12dp"
+                android:elevation="2dp"
+                android:fontFamily="@font/montserrat_light"
+                android:hint="Camera IP Address"
+                android:textSize="16dp"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="#333333"
+                android:textColorHint="#888888" />
+
+            <EditText
+                android:id="@+id/usernameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="12dp"
+                android:textSize="16dp"
+                android:background="@drawable/bg_txt_username"
+                android:drawableStart="@drawable/user_name_res"
+                android:drawablePadding="12dp"
+                android:elevation="2dp"
+                android:fontFamily="@font/montserrat_light"
+                android:hint="Username"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="#333333"
+                android:textColorHint="#888888" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:background="@drawable/bg_txt_username"
+                android:drawableStart="@drawable/ic_pass_resized"
+                android:drawablePadding="12dp"
+                android:elevation="2dp"
+                android:fontFamily="@font/montserrat_light"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="#333333"
+                android:textColorHint="#888888" />
+
+            <!-- Resolution Spinner -->
+            <TextView
+                android:id="@+id/resolutionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Resolution"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="bold" />
+            <Spinner
+                android:id="@+id/resolutionSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/spinner_background"
+                android:fontFamily="@font/poppins_regular"
+                android:spinnerMode="dropdown"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:hint="Select Resolution"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <!-- Frame Rate Text and Spinner -->
+            <TextView
+                android:id="@+id/frameRateText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Frame Rate"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="bold" />
+            <Spinner
+                android:id="@+id/frameRateSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/spinner_background"
+                android:fontFamily="@font/poppins_regular"
+                android:spinnerMode="dropdown"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:hint="Select Frame Rate"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+
+            <!-- Compression Options -->
+            <CheckBox
+                android:id="@+id/compressionCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable Video Compression"
+                android:textColor="#333333"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Motion Detection Toggle -->
+            <Switch
+                android:id="@+id/motionDetectionSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable Motion Detection"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="7dp"/>
+
+            <!-- Save and Cancel Buttons -->
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_background"
+                android:elevation="8dp"
+                android:fontFamily="@font/montserrat_light"
+                android:padding="8dp"
+                android:text="Save Camera"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_background2"
+                android:elevation="8dp"
+                android:fontFamily="@font/montserrat_light"
+                android:padding="8dp"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="-30dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:cardElevation="12dp"
+                    app:cardCornerRadius="50dp"
+                    android:layout_marginEnd="20dp">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/iii"
+                        android:contentDescription="Image 1" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:cardElevation="12dp"
+                    app:cardCornerRadius="50dp"
+                    android:layout_marginEnd="20dp">
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/iiiii"
+                        android:contentDescription="Image 2" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:cardElevation="12dp"
+                    app:cardCornerRadius="50dp"
+                    android:layout_marginEnd="20dp">
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/iiii"
+                        android:contentDescription="Image 3" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
