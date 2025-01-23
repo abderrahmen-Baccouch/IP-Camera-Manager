@@ -78,10 +78,20 @@ IP Camera Manager is an Android application designed to help users manage and mo
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-![Image](https://github.com/user-attachments/assets/7c7e2fdd-9355-4b89-9f4c-89c7a7747911)
-![Image](https://github.com/user-attachments/assets/afccbf86-164f-4b6f-94df-639bc43b1721)
-![Image](https://github.com/user-attachments/assets/dd7356a8-df75-4d4c-80af-059d4520bdd2)
-![Image](https://github.com/user-attachments/assets/228217aa-14c9-499f-a46e-a4a811aadb58)
-![Image](https://github.com/user-attachments/assets/accd4953-439b-49f6-95df-b61465d1b917)
-![Image](https://github.com/user-attachments/assets/10e10324-e26c-42b6-9449-ff3d263aa133)
-![Image](https://github.com/user-attachments/assets/90440c47-3f91-4d8f-a3fc-ff443bdcd536)
+## Screenshots
+
+Below are screenshots showcasing the user interface and features of the application.
+
+![Image](https://github.com/user-attachments/assets/526340d4-1021-4b03-8db6-6480db1f43ca)
+
+![Image](https://github.com/user-attachments/assets/29507f7a-2edc-426e-b7dd-38e34d0b12ef)
+
+![Image](https://github.com/user-attachments/assets/5c9ef831-5745-496c-af93-9ce23a31223e)
+
+![Image](https://github.com/user-attachments/assets/dec9f9a3-2a63-4085-9991-9659e22e781d)
+
+![Image](https://github.com/user-attachments/assets/0a31d90c-9ecc-427a-b503-fe5052f06c2d)
+
+![Image](https://github.com/user-attachments/assets/ac4590c0-751f-41b5-8b54-695aca2606f2)
+
+![Image](https://github.com/user-attachments/assets/5fe75b1e-c33f-4d8d-9ca6-6dc732f72e51)
